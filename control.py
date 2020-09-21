@@ -14,6 +14,8 @@ if instance is None:
     text=text, resume='Hi'
   )
 
+#TODO exemplo com merge()
+
 session.add(instance)
 session.commit()
 session.close()
